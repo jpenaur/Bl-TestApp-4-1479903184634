@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Bl-TestApp-4
+  host: Bl-TestApp-4
+  disk_quota: 1024M
+  services:
+  - Bl-TestApp-4-cloudantNoSQLDB
